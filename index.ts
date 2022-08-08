@@ -152,5 +152,9 @@ function runWebhook() {
   }, WEBHOOK_TIME_INTERVAL);
 }
 
-runWebhook();
-cacheStreams();
+function main () {
+  runWebhook();
+  cacheStreams();
+}
+
+main();
